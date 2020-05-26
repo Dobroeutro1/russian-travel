@@ -1,0 +1,20 @@
+.lead__image {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 8px;
+  max-width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__image {
+    box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    max-width: 984px;
+  }
+}

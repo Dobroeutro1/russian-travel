@@ -1,0 +1,27 @@
+@import url(./__item/photo-grid__item.css);
+
+.photo-grid {
+  margin: 0 auto 97px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-gap: 16px;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    max-width: 288px;
+  }
+}
