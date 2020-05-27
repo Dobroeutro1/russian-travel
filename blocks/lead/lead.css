@@ -5,18 +5,17 @@
 
 .lead {
   margin: 56px auto 92px;
+  width: 100%;
 }
 
 @media screen and (max-width : 768px) {
   .lead {
     margin: 48px 0 88px;
-    max-width: 100%;
   }
 }
 
 @media screen and (max-width : 425px) {
   .lead {
     margin: 48px 0 64px;
-    max-width: 100%;
   }
 }
