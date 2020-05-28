@@ -9,10 +9,3 @@
   color: #FFFFFF;
   grid-area: link;
 }
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .place__link {
-    font-size: 0;
-    line-height: 0;
-  }
-}
