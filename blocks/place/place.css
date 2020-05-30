@@ -42,7 +42,7 @@
 @media screen and (max-width: 400px) {
   .place {
     grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
-    grid-column-gap: 32px;
+    grid-row-gap: 32px;
     margin-bottom: 48px;
     margin-left: 0;
     margin-right: 0;
