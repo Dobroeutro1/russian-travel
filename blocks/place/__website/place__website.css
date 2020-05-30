@@ -2,8 +2,7 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  grid-area: website;
-  align-self: end;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 720px) {
